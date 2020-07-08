@@ -1,0 +1,55 @@
+﻿SYSTEMNAVN
+
+DATAFILNAVN
+
+DATAFILBESKRIVELSE
+
+NØGLEVARIABEL
+
+REFERENCE
+
+VARIABEL
+
+VARIABELBESKRIVELSE
+
+KODELISTE
+q1
+'-999' 'Ikke besvaret'
+'1' 'Mand'
+'2' 'Kvinde'
+q2n1
+'-999' 'Ikke besvaret'
+q3
+'-999' 'Ikke besvaret'
+'1' 'Selvstændig'
+'10' 'Folkepensionist / efterlønsmodtager'
+'11' 'Hjemmearbejdende husmor/husfar'
+'12' 'Under uddannelse / går i skole (inkl. lærlinge og elever)'
+'13' 'Andet'
+'2' 'Medarbejdende ægtefælle'
+'3' 'Funktionær/tjenestemand'
+'4' 'Faglært arbejder'
+'5' 'Ufaglært arbejder/specialarbejder'
+'6' 'På orlov'
+'7' 'Ledig på dagpenge (modtager dagpenge fra A-kasse)'
+'8' 'Ledig på kontanthjælp (modtager bistandshjælp)'
+'9' 'Førtidspensionist'
+q4a1
+'-999' 'Ikke besvaret'
+'1' '8.-9.-10. klasse (grundskole)'
+q4a2
+'-999' 'Ikke besvaret'
+'1' 'Gymnasial uddannelse (STX, HF, HHX, HTX)'
+
+BRUGERKODE
+q1 '-999'
+q2n1 '-999'
+q3 '-999'
+q305o1 '999999'
+q4a1 '-999'
+q4a2 '-999'
+qmad5_2 '-999' '99'
+qmade1 '-999.0'
+qmade1_1 '-999.00'
+qmade6_1 '999999'
+qmade6_2 '999999'

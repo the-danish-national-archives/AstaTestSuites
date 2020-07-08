@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<archiveIndex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sa.dk/xmlns/diark/1.0" xsi:schemaLocation="http://www.sa.dk/xmlns/diark/1.0 ../Schemas/standard/archiveIndex.xsd">
+  <archiveInformationPackageID>AVID.SA.15272</archiveInformationPackageID>
+  <archiveInformationPackageIDPrevious>AVID.SA.19867</archiveInformationPackageIDPrevious>
+  <archivePeriodStart>2009-11-22</archivePeriodStart>
+  <archivePeriodEnd>2019-07-30</archivePeriodEnd>
+  <archiveInformationPacketType>false</archiveInformationPacketType>
+  <archiveCreatorList>
+    <creatorName>Jakob Jakobsen</creatorName>
+    <creationPeriodStart>2009-11-22</creationPeriodStart>
+    <creationPeriodEnd>2019-07-30</creationPeriodEnd>
+	<creatorName>Københavns Universitet</creatorName>
+    <creationPeriodStart>2009-11-22</creationPeriodStart>
+    <creationPeriodEnd>2019-07-30</creationPeriodEnd>
+  </archiveCreatorList>
+  <archiveType>false</archiveType>
+  <archiveTypeClosedFiles>false</archiveTypeClosedFiles>
+  <systemName>Kohorteundersøgelse af det ene og det andet og det tredje 2019</systemName>
+  <alternativeName>Jakobsen-undersøgelsen 2015</alternativeName>
+  <systemPurpose>Undersøgelsen er en undersøgelse af det ene og det andet og det tredje.</systemPurpose>
+  <systemContent>Her skal stå noget om population og centrale variable samt univers og alt det andet.</systemContent>
+  <regionNum>true</regionNum>
+  <komNum>true</komNum>
+  <cprNum>true</cprNum>
+  <cvrNum>false</cvrNum>
+  <matrikNum>false</matrikNum>
+  <bbrNum>false</bbrNum>
+  <whoSygKod>true</whoSygKod>
+  <sourceName>CPR</sourceName>
+  <sourceName>Dansk AlmenMedicinsk Database (DAMD)</sourceName>
+  <predecessorName>Jakob Jakobsen og Københavns Universitets Jakobsen-undersøgelse 2009</predecessorName>
+  <containsDigitalDocuments>false</containsDigitalDocuments>
+  <containsGeodata>false</containsGeodata>
+  <containsResearchData>true</containsResearchData>
+  <researchSIP>true</researchSIP>
+  <documentsDisposal>false</documentsDisposal>
+  <searchRelatedOtherRecords>false</searchRelatedOtherRecords>
+  <systemFileConcept>false</systemFileConcept>
+  <multipleDataCollection>false</multipleDataCollection>
+  <personalDataRestrictedInfo>true</personalDataRestrictedInfo>
+  <otherAccessTypeRestrictions>true</otherAccessTypeRestrictions>
+  <archiveApproval>SA</archiveApproval>
+  <archiveRestrictions>Data er tilgængelige til forskningsformål uden indhentning af samtykke i helhold til § 161, stk. 24 i Arkivloven, jf. j.nr. 19/12345.</archiveRestrictions>
+</archiveIndex>

@@ -1,0 +1,35 @@
+﻿SYSTEMNAVN
+SPSS
+
+DATAFILNAVN
+Fejlmetadatafil
+
+DATAFILBESKRIVELSE
+Forkert tablemappe
+
+NØGLEVARIABEL
+
+REFERENCE
+
+VARIABEL
+userid a765
+q1 f3 q1.
+q2n1 f2
+
+VARIABELBESKRIVELSE
+userid 'userid'
+q1 '1) Er du mand eller kvinde?'
+q2n1 '2) Hvor gammel er du?'
+q3 '3) Hvad er din hovedbeskæftigelse for tiden?'
+
+qmade6_1 'Årsag for videre undersøgelse'
+qmade6_2 'Kommune navn'
+
+KODELISTE
+q1
+'-999' 'Ikke besvaret'
+'1' 'Mand'
+'2' 'Kvinde'
+
+BRUGERKODE
+q1 '-999'

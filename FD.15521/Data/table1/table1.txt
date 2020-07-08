@@ -1,0 +1,39 @@
+﻿SYSTEMNAVN
+SPSS
+
+DATAFILNAVN
+spss23765_barn
+
+DATAFILBESKRIVELSE
+Oplysninger om børn
+
+NØGLEVARIABEL
+id
+
+REFERENCE
+spss23765_forældre 'userid' 'parentsuserid'
+
+VARIABEL
+id f8
+parentsuserid a765
+barnid f8
+q1 f3 q1.
+q2 f2
+søskende a300
+
+VARIABELBESKRIVELSE
+id 'unikid (moruserid plus barnuserid)'
+parentsuserid 'Forældres userid'
+barnid 'Barn userid'
+q1 'Barn køn'
+q2 'Barn alder'
+søskende 'Søskendes navne'
+
+KODELISTE
+q1
+'1' 'Mand'
+'2' 'Kvinde'
+'-999' 'Ikke besvaret'
+
+BRUGERKODE
+q1 '-999'

@@ -1,0 +1,109 @@
+﻿SYSTEMNAVN
+SPSS
+
+DATAFILNAVN
+spss23765_short
+
+DATAFILBESKRIVELSE
+Short version study 23765 in SPSS format
+
+NØGLEVARIABEL
+userid
+
+REFERENCE
+
+VARIABEL
+userid a765
+q1 f3 q1.
+q2n1 f2
+q3 f3 q3.
+q4a1 f3 q4a1.
+q4a2 f3 q4a2.
+q305o1 a765
+q306o1 a765
+q307o1 a765
+q308o1 a765
+q309o1 a765
+qmade1 f3.1
+qmade1_1 f3.2
+qmade1_2 f3.1
+qmade2 sdate10
+qmade2_2 sdate10
+qmade2_3 sdate10
+qmade3 time8
+qmade3_1 time8
+qmade3_2 time8
+qmade4 datetime20
+qmade4_1 datetime20
+qmade4_2 datetime20
+qmade5 f8
+qmade5_1 f8
+qmad5_2 f8
+qmade6 a8
+qmade6_1 a100
+qmade6_2 a100
+
+VARIABELBESKRIVELSE
+userid 'userid'
+q1 '1) Er du mand eller kvinde?' 'Mere tekst'
+q2n1 '2) Hvor gammel er du?'
+q3 '3) Hvad er din hovedbeskæftigelse for tiden?'
+q4a1 '4) 8.-9.-10. klasse (grundskole)'
+q4a2 '4) Gymnasial uddannelse (STX, HF, HHX, HTX)'
+q305o1 '52) Hvilken idrætsgren er du næstmest interesseret i at se og/eller læse om på Internettet?'
+q306o1 '52) Hvilken idrætsgren er du tredjemest interesseret i at se og/eller læse om på Internettet?'
+q307o1 '52) Hvilken idrætsgren er du mest interesseret i at høre om i radioen?'
+q308o1 '52) Hvilken idrætsgren er du næstmest interesseret i at høre om i radioen?'
+q309o1 '52) Hvilken idrætsgren er du tredjemest interesseret i at høre om i radioen?'
+qmade1 'Vægt i måling 1'
+qmade1_1 'Vægt i måling 2'
+qmade1_2 'Højde i cm'
+qmade2 'Måling 1 dato'
+qmade2_2 'Måling 2 dato'
+qmade2_3 'Første barn fødselsdato'
+qmade3 'Måling 1 tidspunkt'
+qmade3_1 'Måling 2 tidspunkt'
+qmade3_2 'slutning af måling 2'
+qmade4 'Undersøgelse som led til Måling 1 - dato og tidspunkt'
+qmade4_1 'Undersøgelse som led til Måling 2 - dato og tidspunkt'
+qmade4_2 'Dato og tidspunkt for anmeldelse i Sygforsikring'
+qmade5 'Antal af dage mellem undersøgelse 1 og sygdom bekræftelse'
+qmade5_1 'Antal af dage siden sidste menstruation'
+qmad5_2 'Antal af hustand beboende'
+qmade6 'Bopælsted'
+qmade6_1 'Årsag for videre undersøgelse'
+qmade6_2 'Kommune navn'
+
+KODELISTE
+q1
+'-999' 'Ikke besvaret'
+'1' 'Mand'
+'2' 'Kvinde'
+q3
+'99' 'Ikke besvaret'
+'-999' 'Ikke besvaret'
+'1' 'Selvstændig'
+'10' 'Folkepensionist / efterlønsmodtager'
+'11' 'Hjemmearbejdende husmor/husfar'
+'12' 'Under uddannelse / går i skole (inkl. lærlinge og elever)'
+'13' 'Andet'
+'2' 'Medarbejdende ægtefælle'
+'3' 'Funktionær/tjenestemand'
+'4' 'Faglært arbejder'
+'5' 'Ufaglært arbejder/specialarbejder'
+'6' 'På orlov'
+'7' 'Ledig på dagpenge (modtager dagpenge fra A-kasse)'
+'8' 'Ledig på kontanthjælp (modtager bistandshjælp)'
+'9' 'Førtidspensionist'
+q4a1
+'-999' 'Ikke besvaret'
+'1' '8.-9.-10. klasse (grundskole)'
+q4a2
+'-999' 'Ikke besvaret'
+'1' 'Gymnasial uddannelse (STX, HF, HHX, HTX)'
+
+BRUGERKODE
+q1 '-999'
+q3 '-999' '99'
+q4a1 '-999'
+q4a2 '-999'
