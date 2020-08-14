@@ -1,0 +1,76 @@
+{
+    "Modules": [{
+            "SubModule": {
+                "Navn": "Styx",
+                "Beskrivelse": "Testsuiter til Styx",
+                "Categories": "128 stk 3",
+                "Suites": [{
+                    "sip-id": "FD.15005",
+                    "Beskrivelse": "Fejlfri afleveringspakke med en datafil som indeholder:\n\nUdtræk fra SPSS-fil\n\n• Korrekt mappestruktur og navngivning heraf.\n• Fejlfri indexfiler\n• Kontekstdokumenter\n• En datafil\n• En metadatafil\n\nDatatypenotationerne:\naw (tekst)\nfw (heltal)\nfw.d (decimal)\nsdate10 (dato)\ntime8 (tidspunkt)\ndatetime20 (tidsstempel)\n\n",
+                    "Mb": 0.251,
+                    "Fejlfri": true
+                }, {
+                    "sip-id": "FD.15405",
+                    "Beskrivelse": "blabla",
+                    "Mb": 1.251,
+                    "Fejlfri": true
+                }]
+            }
+        },
+        {
+            "SubModule": {
+                "Navn": "Nemesis",
+                "Beskrivelse": "Testsuiter til Nemesis ",
+                "Categories": "128 stk 3",
+                "Suites": [{
+                    "sip-id": "FD.15005",
+                    "Beskrivelse": "blabla",
+                    "Mb": 0.251,
+                    "Fejlfri": true
+                }, {
+                    "sip-id": "FD.15405",
+                    "Beskrivelse": "blabla",
+                    "Mb": 1.251,
+                    "Fejlfri": true
+                }]
+            }
+        },
+        {
+            "SubModule": {
+                "Navn": "Athena",
+                "Beskrivelse": "Testsuiter til Athena ",
+                "Categories": "128 stk 3",
+                "Suites": [{
+                    "sip-id": "FD.15005",
+                    "Beskrivelse": "blabla",
+                    "Mb": 0.251,
+                    "Fejlfri": true
+                }, {
+                    "sip-id": "FD.15405",
+                    "Beskrivelse": "blabla",
+                    "Mb": 1.251,
+                    "Fejlfri": true
+                }]
+            }
+        },
+        {
+            "SubModule": {
+                "Navn": "Hybris",
+                "Beskrivelse": "Testsuiter til Hybris ",
+                "Categories": "128 stk 3",
+                "Suites": [{
+                    "sip-id": "FD.15005",
+                    "Beskrivelse": "blabla",
+                    "Mb": 0.251,
+                    "Fejlfri": true
+                }, {
+                    "sip-id": "FD.15405",
+                    "Beskrivelse": "blabla",
+                    "Mb": 1.251,
+                    "Fejlfri": true
+                }]
+            }
+        }
+    ],
+    "Revision": "2020-08-14T14:10"
+}
