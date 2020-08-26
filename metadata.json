@@ -5,15 +5,10 @@
                 "Beskrivelse": "Testsuiter til Styx",
                 "Categories": "128 stk 3",
                 "Suites": [{
-                    "sip-id": "FD.15005",
-                    "Beskrivelse": "Fejlfri afleveringspakke med en datafil som indeholder:\n\nUdtræk fra SPSS-fil\n\n• Korrekt mappestruktur og navngivning heraf.\n• Fejlfri indexfiler\n• Kontekstdokumenter\n• En datafil\n• En metadatafil\n\nDatatypenotationerne:\naw (tekst)\nfw (heltal)\nfw.d (decimal)\nsdate10 (dato)\ntime8 (tidspunkt)\ndatetime20 (tidsstempel)\n\n",
-                    "Mb": 0.251,
-                    "Fejlfri": true
-                }, {
-                    "sip-id": "FD.15405",
-                    "Beskrivelse": "blabla",
-                    "Mb": 1.251,
-                    "Fejlfri": true
+                    "sip-id": "AVID.SA.15078.1",
+                    "Beskrivelse": "Dette testmateriale indeholder flere tabeller og flere linjer med tekstfelter med indhold over 32.767 bytes samt for lange variabelbeskrivelser (over 256 bytes) og kodelistebeksrivelser (over 120 bytes).  (Konkrete data: TEKSTFELTER: Table 6 indeholder 3 r\u00E6kker hvor felt c19 indeholder for mange tegn i forhold til hvad SPSS kan indl\u00E6se (max 32.767 bytes). Table12 indeholder 2 r\u00E6kker hvor felter i c11 indeholder for mange tegn i forhold til hvad SPSS kan indl\u00E6se (max 32.767 bytes). VARIABELBESKRIVELSER: Table 1 har de f\u00F8rste to kolonner for lang variabelbskrivelse (c1 og c2). I Table 6 har kolonne c5 for lang variabelbeskrivelse. KODELISTER: Table 2 indeholder for lang kodelisteforklaring over 120 bytes i kodeforklaring til koden 1. Table 4 indeholder for lang kodelisteforklaring for koderne 1 og 5. Table 10 indeholder for lang tekst for kode 1.)\r\n",
+                    "Mb": 11.2,
+                    "Fejlfri": false
                 }]
             }
         },
@@ -23,12 +18,12 @@
                 "Beskrivelse": "Testsuiter til Nemesis ",
                 "Categories": "128 stk 3",
                 "Suites": [{
-                    "sip-id": "FD.15005",
+                    "sip-id": "Fake",
                     "Beskrivelse": "blabla",
                     "Mb": 0.251,
                     "Fejlfri": true
                 }, {
-                    "sip-id": "FD.15405",
+                    "sip-id": "Fake",
                     "Beskrivelse": "blabla",
                     "Mb": 1.251,
                     "Fejlfri": true
@@ -41,12 +36,12 @@
                 "Beskrivelse": "Testsuiter til Athena ",
                 "Categories": "128 stk 3",
                 "Suites": [{
-                    "sip-id": "FD.15005",
+                    "sip-id": "Fake",
                     "Beskrivelse": "blabla",
                     "Mb": 0.251,
                     "Fejlfri": true
                 }, {
-                    "sip-id": "FD.15405",
+                    "sip-id": "Fake",
                     "Beskrivelse": "blabla",
                     "Mb": 1.251,
                     "Fejlfri": true
@@ -59,12 +54,12 @@
                 "Beskrivelse": "Testsuiter til Hybris ",
                 "Categories": "128 stk 3",
                 "Suites": [{
-                    "sip-id": "FD.15005",
+                    "sip-id": "Fake",
                     "Beskrivelse": "blabla",
                     "Mb": 0.251,
                     "Fejlfri": true
                 }, {
-                    "sip-id": "FD.15405",
+                    "sip-id": "Fake",
                     "Beskrivelse": "blabla",
                     "Mb": 1.251,
                     "Fejlfri": true
@@ -72,5 +67,5 @@
             }
         }
     ],
-    "Revision": "2020-08-14T14:10"
+    "Revision": "2020-08-26T12:48"
 }
