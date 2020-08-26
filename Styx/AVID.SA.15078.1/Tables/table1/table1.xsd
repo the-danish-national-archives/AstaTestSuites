@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://www.sa.dk/xmlns/siard/1.0/schema0/table1.xsd" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.sa.dk/xmlns/siard/1.0/schema0/table1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="row" type="rowType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="rowType">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="c1" type="xs:string" />
+      <xs:element minOccurs="1" name="c2" type="xs:integer" />
+      <xs:element minOccurs="1" name="c3" nillable="true" type="xs:integer" />
+      <xs:element minOccurs="1" name="c4" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="1" name="c5" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="1" name="c6" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="1" name="c7" nillable="true" type="xs:string" />
+      <xs:element minOccurs="1" name="c8" type="xs:integer" />
+      <xs:element minOccurs="1" name="c9" type="xs:integer" />
+      <xs:element minOccurs="1" name="c10" nillable="true" type="xs:date" />
+      <xs:element minOccurs="1" name="c11" type="xs:date" />
+      <xs:element minOccurs="1" name="c12" type="xs:integer" />
+      <xs:element minOccurs="1" name="c13" nillable="true" type="xs:string" />
+      <xs:element minOccurs="1" name="c14" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="1" name="c15" type="xs:string" />
+      <xs:element minOccurs="1" name="c16" nillable="true" type="xs:time" />
+      <xs:element minOccurs="1" name="c17" type="xs:time" />
+      <xs:element minOccurs="1" name="c18" type="xs:dateTime" />
+      <xs:element minOccurs="1" name="c19" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siardDiark xsi:schemaLocation="http://www.sa.dk/xmlns/diark/1.0 ../Schemas/standard/tableIndex.xsd" xmlns="http://www.sa.dk/xmlns/diark/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>1.0</version>
+  <dbName>ikke_relevant</dbName>
+  <databaseProduct>Microsoft SQL server</databaseProduct>
+  <tables>
+    <table>
+      <name>Børn</name>
+      <folder>table1</folder>
+      <description>Oplysninger om børn i generationsstudiet.</description>
+      <columns>
+        <column>
+          <name>barn_id</name>
+          <columnID>c1</columnID>
+          <type>VARCHAR(5)</type>
+          <typeOriginal>a765</typeOriginal>
+          <nullable>false</nullable>
+          <description>352 tegn med mellemrum Barn ID. Unikt ikke-betydningsbærende identifikationsnummer. Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet. Der skal åbenbart lidt mere til så jeg copy paster ind her Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet.</description>
+        </column>
+        <column>
+          <name>koen</name>
+          <columnID>c2</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f3</typeOriginal>
+          <nullable>false</nullable>
+          <description>317 tegn med mellemrum Er du mand eller kvinde?. Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet. Der skal åbenbart lidt mere til så jeg copy paster ind her Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet.</description>
+        </column>
+        <column>
+          <name>alder</name>
+          <columnID>c3</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f2</typeOriginal>
+          <nullable>true</nullable>
+          <description>Hvor gammel er du? (angivet i år)</description>
+        </column>
+        <column>
+          <name>vaegt_idag</name>
+          <columnID>c4</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>f3.1</typeOriginal>
+          <nullable>true</nullable>
+          <description>Hvad er din vægt idag? (angivet i kilogram/kg)</description>
+        </column>
+        <column>
+          <name>vaegt_sidsteaar</name>
+          <columnID>c5</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>f3.2</typeOriginal>
+          <nullable>true</nullable>
+          <description>Hvad var din vægt i starten af sidste år? (angivet i kilogram/kg)</description>
+        </column>
+        <column>
+          <name>hojde</name>
+          <columnID>c6</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>f3.2</typeOriginal>
+          <nullable>true</nullable>
+          <description>Højde (angivet i centimeter)</description>
+        </column>
+        <column>
+          <name>bopael</name>
+          <columnID>c7</columnID>
+          <type>VARCHAR(9)</type>
+          <typeOriginal>a30</typeOriginal>
+          <nullable>true</nullable>
+          <description>Bopælsted</description>
+        </column>
+        <column>
+          <name>klasse</name>
+          <columnID>c8</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f3</typeOriginal>
+          <nullable>false</nullable>
+          <description>Har du gået i 10. klasse i grundskole?</description>
+        </column>
+        <column>
+          <name>gymuddannelse</name>
+          <columnID>c9</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f3</typeOriginal>
+          <nullable>false</nullable>
+          <description>Har du taget en af følgende gymnasielle uddannelser (STX, HF, HHX, HTX)?</description>
+        </column>
+        <column>
+          <name>start_dato</name>
+          <columnID>c10</columnID>
+          <type>DATE</type>
+          <typeOriginal>sdate10</typeOriginal>
+          <nullable>true</nullable>
+          <description>Gymnasial uddannelse start dato</description>
+        </column>
+        <column>
+          <name>slut_dato</name>
+          <columnID>c11</columnID>
+          <type>DATE</type>
+          <typeOriginal>sdate10</typeOriginal>
+          <nullable>false</nullable>
+          <description>Gymnasial uddannelse slut dato</description>
+        </column>
+        <column>
+          <name>hobby</name>
+          <columnID>c12</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f3</typeOriginal>
+          <nullable>false</nullable>
+          <description>Hvad er din hobby?</description>
+        </column>
+        <column>
+          <name>idraet</name>
+          <columnID>c13</columnID>
+          <type>VARCHAR(28)</type>
+          <typeOriginal>a765</typeOriginal>
+          <nullable>true</nullable>
+          <description>Hvilken idrætsgren er du interesseret i?</description>
+        </column>
+        <column>
+          <name>laegebesoeg</name>
+          <columnID>c14</columnID>
+          <type>TIMESTAMP</type>
+          <typeOriginal>datetime20</typeOriginal>
+          <nullable>true</nullable>
+          <description>Lægebesøg - dato og tidspunkt</description>
+        </column>
+        <column>
+          <name>kommune</name>
+          <columnID>c15</columnID>
+          <type>VARCHAR(9)</type>
+          <typeOriginal>a100</typeOriginal>
+          <nullable>false</nullable>
+          <description>Navn på kommunen hvor undersøgelsen foregår</description>
+        </column>
+        <column>
+          <name>tidspunkt</name>
+          <columnID>c16</columnID>
+          <type>TIME</type>
+          <typeOriginal>time8</typeOriginal>
+          <nullable>true</nullable>
+          <description>Tidspunkt for hjerteundersøgelse</description>
+        </column>
+        <column>
+          <name>maaling</name>
+          <columnID>c17</columnID>
+          <type>TIME</type>
+          <typeOriginal>time8</typeOriginal>
+          <nullable>false</nullable>
+          <description>Tidspunkt for måling af blodtryk</description>
+        </column>
+        <column>
+          <name>anmeldelse</name>
+          <columnID>c18</columnID>
+          <type>TIMESTAMP</type>
+          <typeOriginal>datetime20</typeOriginal>
+          <nullable>false</nullable>
+          <description>Tidspunkt for tilmelding til programmet -Sundhed for alle- (dato og tidspunkt)</description>
+        </column>
+        <column>
+          <name>aarsag</name>
+          <columnID>c19</columnID>
+          <type>VARCHAR(38)</type>
+          <typeOriginal>a100</typeOriginal>
+          <nullable>false</nullable>
+          <description>Årsag til videre undersøgelse</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Børn</name>
+        <column>barn_id</column>
+      </primaryKey>
+      <foreignKeys>
+        <foreignKey>
+          <name>FK_Børn_koen_2</name>
+          <referencedTable>Børn_koen</referencedTable>
+          <reference>
+            <column>koen</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Børn_klasse_8</name>
+          <referencedTable>Børn_klasse</referencedTable>
+          <reference>
+            <column>klasse</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Børn_gymuddannelse_9</name>
+          <referencedTable>Børn_gymuddannelse</referencedTable>
+          <reference>
+            <column>gymuddannelse</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Børn_hobby_12</name>
+          <referencedTable>Børn_hobby</referencedTable>
+          <reference>
+            <column>hobby</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+      </foreignKeys>
+      <rows>20</rows>
+    </table>
+    <table>
+      <name>Børn_koen</name>
+      <folder>table2</folder>
+      <description>Kodeliste til tabel Børn</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>INTEGER</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(7)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Børn_koen</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>3</rows>
+    </table>
+    <table>
+      <name>Børn_klasse</name>
+      <folder>table3</folder>
+      <description>Kodeliste til tabel Børn</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>INTEGER</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(7)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Børn_klasse</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>3</rows>
+    </table>
+    <table>
+      <name>Børn_gymuddannelse</name>
+      <folder>table4</folder>
+      <description>Kodeliste til tabel Børn</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>INTEGER</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(27)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Børn_gymuddannelse</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>7</rows>
+    </table>
+    <table>
+      <name>Børn_hobby</name>
+      <folder>table5</folder>
+      <description>Kodeliste til tabel Børn</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>INTEGER</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(11)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Børn_hobby</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>10</rows>
+    </table>
+    <table>
+      <name>Forældre</name>
+      <folder>table6</folder>
+      <description>Oplysninger om forældre i generationsstudiet.</description>
+      <columns>
+        <column>
+          <name>f_id</name>
+          <columnID>c1</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>%9.0g</typeOriginal>
+          <nullable>false</nullable>
+          <description>Forældre ID. Unikt ikke betydningsbærende identifikationsnummer.</description>
+        </column>
+        <column>
+          <name>b_id</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(5)</type>
+          <typeOriginal>%5s</typeOriginal>
+          <nullable>false</nullable>
+          <description>Barn ID. Refererer til forælderens barn i datasættet Børn.</description>
+        </column>
+        <column>
+          <name>f_koen</name>
+          <columnID>c3</columnID>
+          <type>VARCHAR(2)</type>
+          <typeOriginal>%13.0f</typeOriginal>
+          <nullable>false</nullable>
+          <description>Er du mand eller kvinde?</description>
+        </column>
+        <column>
+          <name>f_alder</name>
+          <columnID>c4</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>%2.0f</typeOriginal>
+          <nullable>false</nullable>
+          <description>Hvor gammel er du? (angivet i år)</description>
+        </column>
+        <column>
+          <name>f_vaegt</name>
+          <columnID>c5</columnID>
+          <type>VARCHAR(17)</type>
+          <typeOriginal>%13.1f</typeOriginal>
+          <nullable>false</nullable>
+          <description>606 tegn med mellemrum Hvad er din vægt idag? (angivet i kilogram/kg)Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet. Der skal åbenbart lidt mere til så jeg copy paster ind her Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet. Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet. Der skal åbenbart lidt mere til så jeg copy paster ind her Jeg har indsat lidt mere tekst her så det overstiger de tilladte 256 bytes i SPSS statistics programmet.</description>
+        </column>
+        <column>
+          <name>f_vaegt_sidsteaar</name>
+          <columnID>c6</columnID>
+          <type>VARCHAR(17)</type>
+          <typeOriginal>%13.2f</typeOriginal>
+          <nullable>false</nullable>
+          <description>Hvad var din vægt i starten af sidste år? (angivet i kilogram/kg)</description>
+        </column>
+        <column>
+          <name>f_hojde</name>
+          <columnID>c7</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>%3.1f</typeOriginal>
+          <nullable>false</nullable>
+          <description>Højde (angivet i centimeter)</description>
+        </column>
+        <column>
+          <name>beboende</name>
+          <columnID>c8</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>%4.0g</typeOriginal>
+          <nullable>true</nullable>
+          <description>Antal af beboende i hustanden.</description>
+        </column>
+        <column>
+          <name>f_gymuddannelse</name>
+          <columnID>c9</columnID>
+          <type>VARCHAR(2)</type>
+          <typeOriginal>%40.0g</typeOriginal>
+          <nullable>false</nullable>
+          <description>Har du taget en af følgende gymnasielle uddannelser (STX, HF, HHX, HTX)?</description>
+        </column>
+        <column>
+          <name>f_beskaeftigelse</name>
+          <columnID>c10</columnID>
+          <type>VARCHAR(2)</type>
+          <typeOriginal>%59.0g</typeOriginal>
+          <nullable>false</nullable>
+          <description>Hvad er din hovedbeskæftigelse for tiden?</description>
+        </column>
+        <column>
+          <name>bop_arb_km</name>
+          <columnID>c11</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>%13.0g</typeOriginal>
+          <nullable>false</nullable>
+          <description>Hvor lang afstand har du fra bopæl til arbejde? (angivet i kilometer)</description>
+        </column>
+        <column>
+          <name>tilfreds</name>
+          <columnID>c12</columnID>
+          <type>VARCHAR(66000)</type>
+          <typeOriginal>%23.0g</typeOriginal>
+          <nullable>false</nullable>
+          <description>Hvor tilfreds er du med distancen til arbejde? (Skala anvendt)</description>
+        </column>
+        <column>
+          <name>Maaling1</name>
+          <columnID>c13</columnID>
+          <type>DATE</type>
+          <typeOriginal>%tdCCYY-NN-DD</typeOriginal>
+          <nullable>true</nullable>
+          <description>Dato for blodtrykmåling 1</description>
+        </column>
+        <column>
+          <name>Maaling2</name>
+          <columnID>c14</columnID>
+          <type>DATE</type>
+          <typeOriginal>%tdCCYY-NN-DD</typeOriginal>
+          <nullable>true</nullable>
+          <description>Dato for blodtrykmåling 2</description>
+        </column>
+        <column>
+          <name>Maaling1tdpkt</name>
+          <columnID>c15</columnID>
+          <type>TIME</type>
+          <typeOriginal>%tcHH:MM:SS</typeOriginal>
+          <nullable>true</nullable>
+          <description>Tidspunkt for blodtrykmåling 1</description>
+        </column>
+        <column>
+          <name>Maaling2tdpkt</name>
+          <columnID>c16</columnID>
+          <type>TIME</type>
+          <typeOriginal>%tcHH:MM:SS</typeOriginal>
+          <nullable>false</nullable>
+          <description>Tidspunkt for blodtrykmåling 2</description>
+        </column>
+        <column>
+          <name>laegebesoeg1</name>
+          <columnID>c17</columnID>
+          <type>TIMESTAMP</type>
+          <typeOriginal>%tcCCYY-NN-DD!THH:MM:SS</typeOriginal>
+          <nullable>true</nullable>
+          <description>Første læge besøg - dato og tidspunkt</description>
+        </column>
+        <column>
+          <name>laegebesoeg2</name>
+          <columnID>c18</columnID>
+          <type>TIMESTAMP</type>
+          <typeOriginal>%tcCCYY-NN-DD!THH:MM:SS</typeOriginal>
+          <nullable>true</nullable>
+          <description>Andet læge besøg - dato og tidspunkt</description>
+        </column>
+        <column>
+          <name>aarsag</name>
+          <columnID>c19</columnID>
+          <type>VARCHAR(66000)</type>
+          <typeOriginal>%32767s</typeOriginal>
+          <nullable>true</nullable>
+          <description>Årsag for videre undersøgelse</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Forældre</name>
+        <column>f_id</column>
+      </primaryKey>
+      <foreignKeys>
+        <foreignKey>
+          <name>FK_Forældre_Koen_3</name>
+          <referencedTable>Forældre_Koen</referencedTable>
+          <reference>
+            <column>f_koen</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Forældre_vaegt_5</name>
+          <referencedTable>Forældre_vaegt</referencedTable>
+          <reference>
+            <column>f_vaegt</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Forældre_vaegt_6</name>
+          <referencedTable>Forældre_vaegt</referencedTable>
+          <reference>
+            <column>f_vaegt_sidsteaar</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Forældre_Gym_9</name>
+          <referencedTable>Forældre_Gym</referencedTable>
+          <reference>
+            <column>f_gymuddannelse</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Forældre_Q3_10</name>
+          <referencedTable>Forældre_Q3</referencedTable>
+          <reference>
+            <column>f_beskaeftigelse</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Forældre_tilfreds_12</name>
+          <referencedTable>Forældre_tilfreds</referencedTable>
+          <reference>
+            <column>tilfreds</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Forældre_Børn_1</name>
+          <referencedTable>Børn</referencedTable>
+          <reference>
+            <column>b_id</column>
+            <referenced>barn_id</referenced>
+          </reference>
+        </foreignKey>
+      </foreignKeys>
+      <rows>40</rows>
+    </table>
+    <table>
+      <name>Forældre_Koen</name>
+      <folder>table7</folder>
+      <description>Kodeliste til tabel Forældre</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>VARCHAR(2)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(7)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Forældre_Koen</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>3</rows>
+    </table>
+    <table>
+      <name>Forældre_vaegt</name>
+      <folder>table8</folder>
+      <description>Kodeliste til tabel Forældre</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>VARCHAR(17)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(7)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Forældre_vaegt</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>1</rows>
+    </table>
+    <table>
+      <name>Forældre_Gym</name>
+      <folder>table9</folder>
+      <description>Kodeliste til tabel Forældre</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>VARCHAR(2)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(27)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Forældre_Gym</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>6</rows>
+    </table>
+    <table>
+      <name>Forældre_Q3</name>
+      <folder>table10</folder>
+      <description>Kodeliste til tabel Forældre</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>VARCHAR(2)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(57)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Forældre_Q3</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>14</rows>
+    </table>
+    <table>
+      <name>Forældre_tilfreds</name>
+      <folder>table11</folder>
+      <description>Kodeliste til tabel Forældre</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>VARCHAR(2)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(23)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Forældre_tilfreds</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>3</rows>
+    </table>
+    <table>
+      <name>Bedsteforældre</name>
+      <folder>table12</folder>
+      <description>Oplysninger om bedsteforældre i generationsstudiet.</description>
+      <columns>
+        <column>
+          <name>b_id</name>
+          <columnID>c1</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f5.</typeOriginal>
+          <nullable>false</nullable>
+          <description>Bedsteforælder ID. Unikt ikke betydningsbærende ID</description>
+        </column>
+        <column>
+          <name>barnebarn_id</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(5)</type>
+          <typeOriginal>$5.</typeOriginal>
+          <nullable>false</nullable>
+          <description>Barnebarn ID. Refererer bedsteforælders barnebarn i datasættet Børn</description>
+        </column>
+        <column>
+          <name>b_koen</name>
+          <columnID>c3</columnID>
+          <type>VARCHAR(1)</type>
+          <typeOriginal>f1.</typeOriginal>
+          <nullable>false</nullable>
+          <description>Bedsteforælders køn</description>
+        </column>
+        <column>
+          <name>b_alder</name>
+          <columnID>c4</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f2.</typeOriginal>
+          <nullable>false</nullable>
+          <description>Bedsteforælders alder (angivet i år)</description>
+        </column>
+        <column>
+          <name>b_hojde</name>
+          <columnID>c5</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>f6.2</typeOriginal>
+          <nullable>false</nullable>
+          <description>Bedsteforælders højde (angivet i centimeter)</description>
+        </column>
+        <column>
+          <name>b_vaegt</name>
+          <columnID>c6</columnID>
+          <type>INTEGER</type>
+          <typeOriginal>f3.</typeOriginal>
+          <nullable>false</nullable>
+          <description>Bedsteforælders vægt i år (angivet i kilogram/kg)</description>
+        </column>
+        <column>
+          <name>maaling</name>
+          <columnID>c7</columnID>
+          <type>TIME</type>
+          <typeOriginal>time.</typeOriginal>
+          <nullable>false</nullable>
+          <description>Tidspunkt for måling af blodtryk</description>
+        </column>
+        <column>
+          <name>b_vaegt_sidsteaar</name>
+          <columnID>c8</columnID>
+          <type>DECIMAL</type>
+          <typeOriginal>f6.2</typeOriginal>
+          <nullable>false</nullable>
+          <description>Bedsteforælders vægt sidste år (angivet i kilogram/kg)</description>
+        </column>
+        <column>
+          <name>sidste_laege</name>
+          <columnID>c9</columnID>
+          <type>DATE</type>
+          <typeOriginal>yymmdd10.</typeOriginal>
+          <nullable>true</nullable>
+          <description>Dato for sidste lægebesøg</description>
+        </column>
+        <column>
+          <name>sidste_operation</name>
+          <columnID>c10</columnID>
+          <type>TIMESTAMP</type>
+          <typeOriginal>e8601dt19.</typeOriginal>
+          <nullable>false</nullable>
+          <description>Dato og tidspunkt for sidste operation</description>
+        </column>
+        <column>
+          <name>sygdom</name>
+          <columnID>c11</columnID>
+          <type>VARCHAR(66000)</type>
+          <typeOriginal>$6.</typeOriginal>
+          <nullable>true</nullable>
+          <description>Eksisterende alvorlige sygdom</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Bedsteforældre</name>
+        <column>b_id</column>
+      </primaryKey>
+      <foreignKeys>
+        <foreignKey>
+          <name>FK_Bedsteforældre_koen_3</name>
+          <referencedTable>Bedsteforældre_koen</referencedTable>
+          <reference>
+            <column>b_koen</column>
+            <referenced>Kode</referenced>
+          </reference>
+        </foreignKey>
+        <foreignKey>
+          <name>FK_Bedsteforældre_Børn_1</name>
+          <referencedTable>Børn</referencedTable>
+          <reference>
+            <column>barnebarn_id</column>
+            <referenced>barn_id</referenced>
+          </reference>
+        </foreignKey>
+      </foreignKeys>
+      <rows>15</rows>
+    </table>
+    <table>
+      <name>Bedsteforældre_koen</name>
+      <folder>table13</folder>
+      <description>Kodeliste til tabel Bedsteforældre</description>
+      <columns>
+        <column>
+          <name>Kode</name>
+          <columnID>c1</columnID>
+          <type>VARCHAR(1)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Kode</description>
+        </column>
+        <column>
+          <name>Kodeforklaring</name>
+          <columnID>c2</columnID>
+          <type>VARCHAR(7)</type>
+          <typeOriginal />
+          <nullable>false</nullable>
+          <description>Forklaring af kodens betydning</description>
+        </column>
+      </columns>
+      <primaryKey>
+        <name>PK_Bedsteforældre_koen</name>
+        <column>Kode</column>
+      </primaryKey>
+      <rows>3</rows>
+    </table>
+  </tables>
+</siardDiark>
